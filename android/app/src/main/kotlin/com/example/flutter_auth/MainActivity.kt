@@ -1,4 +1,4 @@
-package com.example.flutter_cafe
+package com.example.flutter_auth
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
