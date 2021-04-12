@@ -17,19 +17,25 @@ class Body extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              "WELCOME TO SHORT COFFE",
-              style: TextStyle(fontWeight: FontWeight.bold),
-            ),
-            SizedBox(height: size.height * 0.05),
             SvgPicture.asset(
-              "assets/icons/chat.svg",
+              "assets/icons/logo.svg",
               height: size.height * 0.45,
+            ),
+            Text(
+              "Bem vindo ao Short Coffe!",
+              style: TextStyle(
+                  fontWeight: FontWeight.bold, fontSize: 24, color: whiteColor),
+            ),
+            SizedBox(height: size.height * 0.02),
+            Text(
+              "A plataforma que encurta a distância\n entre o produtor de café e o comprador.",
+              style: TextStyle(
+                  fontWeight: FontWeight.w300, fontSize: 14, color: whiteColor),
             ),
             SizedBox(height: size.height * 0.05),
             RoundedButton(
-              text: "LOGIN",
-              color: Color.fromRGBO(255, 184, 0, 1),
+              text: "ENTRAR",
+              color: yellowColor,
               borderColor: Color.fromRGBO(255, 184, 0, 0),
               textColor: Colors.white,
               press: () {
@@ -44,9 +50,9 @@ class Body extends StatelessWidget {
               },
             ),
             RoundedButton(
-              text: "SIGN UP",
-              color: Color.fromRGBO(150, 150, 150, 0.1),
-              borderColor: Color.fromRGBO(255, 184, 0, 1),
+              text: "CADASTRAR",
+              color: lightWhiteColor,
+              borderColor: yellowColor,
               textColor: Colors.white,
               press: () {
                 Navigator.push(
