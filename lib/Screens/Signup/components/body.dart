@@ -11,6 +11,8 @@ import 'package:flutter_auth/constants.dart';
 import 'package:flutter_svg/svg.dart';
 
 class Body extends StatelessWidget {
+  get expandedHeight => 200;
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;

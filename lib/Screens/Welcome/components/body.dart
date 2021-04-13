@@ -30,7 +30,9 @@ class Body extends StatelessWidget {
             Text(
               "A plataforma que encurta a distância\n entre o produtor de café e o comprador.",
               style: TextStyle(
-                  fontWeight: FontWeight.w300, fontSize: 14, color: whiteColor),
+                  fontWeight: FontWeight.normal,
+                  fontSize: 14,
+                  color: whiteColor),
             ),
             SizedBox(height: size.height * 0.05),
             RoundedButton(
