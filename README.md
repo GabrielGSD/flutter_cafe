@@ -17,5 +17,11 @@ O projeto **Flutter Café** é um projeto em desenvolvimento para a disciplina d
 <img height="500" src="https://user-images.githubusercontent.com/57488202/114951651-3b439800-9e2b-11eb-965f-cebdb414b9a0.png" alt="moisessdelmoro" />
 
 ## Colaboradores
-- [Gabriel de Souza Daniel](https://github.com/GabrielGSD)
-- [Moisés dos Santos Delmoro](https://github.com/MoisesSDelmoro)
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/GabrielGSD/"><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/57488202/117461169-a57bc400-af23-11eb-8e32-86dc54da88c2.png" width="100px;" alt=""/><br /><sub><b>Gabriel S. Daniel</b></sub></a></td>      
+    <td align="center"><a href="https://github.com/MoisesSDelmoro"><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/57488202/117151468-7f251f80-ad8f-11eb-9e56-7a242b89ed72.png" width="100px;" alt=""/><br /><sub><b>Moises S. Delmoro</b></sub></a></td>  
+  </tr>
+</table>
+
