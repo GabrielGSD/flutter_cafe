@@ -44,8 +44,12 @@ class Body extends StatelessWidget {
               hintText2: "Senha",
               onChanged: (value) {},
             ),
+            RoundedPasswordField(
+              hintText2: "Repita sua senha",
+              onChanged: (value) {},
+            ),
             RoundedButton(
-              text: "CADASTRAR",
+              text: "CONTINUAR",
               color: yellowColor,
               borderColor: Color.fromRGBO(255, 184, 0, 0),
               textColor: Colors.white,
@@ -65,24 +69,6 @@ class Body extends StatelessWidget {
                 );
               },
             ),
-            OrDivider(),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                SocalIcon(
-                  iconSrc: "assets/icons/facebook.svg",
-                  press: () {},
-                ),
-                SocalIcon(
-                  iconSrc: "assets/icons/twitter.svg",
-                  press: () {},
-                ),
-                SocalIcon(
-                  iconSrc: "assets/icons/google-plus.svg",
-                  press: () {},
-                ),
-              ],
-            )
           ],
         ),
       ),
