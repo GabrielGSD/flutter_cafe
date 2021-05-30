@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_auth/Screens/Login/login_screen.dart';
-import 'package:flutter_auth/Screens/Register/components/register_coffee_grower.dart';
 import 'package:flutter_auth/Screens/Signup/components/background.dart';
+import 'package:flutter_auth/Screens/Signup/signup_screen.dart';
 import 'package:flutter_auth/Screens/Welcome/welcome_screen.dart';
 import 'package:flutter_auth/components/already_have_an_account_acheck.dart';
 import 'package:flutter_auth/components/rounded_button.dart';
@@ -9,8 +9,6 @@ import 'package:flutter_auth/components/rounded_input_field.dart';
 import 'package:flutter_auth/components/rounded_password_field.dart';
 import 'package:flutter_auth/constants.dart';
 import 'package:flutter_svg/svg.dart';
-
-import '../register_coffee_grower_screen.dart';
 
 class Body extends StatelessWidget {
   get expandedHeight => 200;
@@ -39,11 +37,11 @@ class Body extends StatelessWidget {
             ),
             SizedBox(height: size.height * 0.03),
             RoundedInputField(
-              hintText1: "Seu Email",
+              hintText1: "Entre com seu e-mail",
               onChanged: (value) {},
             ),
             RoundedPasswordField(
-              hintText2: "Senha",
+              hintText2: "Crie uma senha",
               onChanged: (value) {},
             ),
             RoundedPasswordField(
@@ -65,7 +63,7 @@ class Body extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return RegisterCoffeeGrower();
+                      return SignUpScreen();
                     },
                   ),
                 );
